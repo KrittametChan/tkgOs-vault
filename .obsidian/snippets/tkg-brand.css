@@ -1,0 +1,28 @@
+/* TKG Hair Center — brand snippet (charcoal + gold) */
+/* เปิดใช้: Settings > Appearance > CSS snippets > tkg-brand */
+
+.theme-dark {
+  --interactive-accent: #c8a96a;
+  --interactive-accent-hover: #d8bc82;
+  --text-accent: #c8a96a;
+  --text-accent-hover: #d8bc82;
+  --checkbox-color: #c8a96a;
+  --checkbox-color-hover: #d8bc82;
+  --tag-color: #c8a96a;
+  --tag-background: rgba(200, 169, 106, 0.12);
+}
+
+.theme-light {
+  --interactive-accent: #a8853f;
+  --interactive-accent-hover: #8f7035;
+  --text-accent: #a8853f;
+  --text-accent-hover: #8f7035;
+  --checkbox-color: #a8853f;
+  --tag-color: #8f7035;
+  --tag-background: rgba(168, 133, 63, 0.12);
+}
+
+.theme-dark h1, .theme-dark h2 { color: #e8e2d5; }
+.theme-dark .callout[data-callout="tip"] {
+  --callout-color: 200, 169, 106;
+}

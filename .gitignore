@@ -1,0 +1,13 @@
+# --- Obsidian: เก็บ settings/plugins แต่ไม่เก็บ state ราย session ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+._*
+
+# --- git sync artifacts ---
+*.orig
